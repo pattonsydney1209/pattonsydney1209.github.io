@@ -10,6 +10,16 @@
 <link rel="shortcut icon" href="Images/favcon.png" type="image/x-icon">
 
     <title>Sydney Patton - Designer</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81354377-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>
@@ -24,11 +34,12 @@
         </h1>
            <h2 class="menu">Menu</h2>
             <nav>
-                <ul id="menu">
+                <ul id="menu"> 
                     <li><a href="#about" class="selected">about</a></li>
                     <li><a href="#portfolio">portfolio</a></li>
                     <li><a href="#contact">contact</a></li>
-                    <li><a href="Images/Resume.pdf" target="_blank">resumé</a></li>
+                    <li><a href="Images/Resume.pdf" target="_blank" onclick="ga('send', 'event', 'Resume', 'download', 'Main Menu');"
+>resumé</a></li>
                 </ul>
                 <ul id="social">
                     <li>
@@ -55,7 +66,9 @@
                 <h1 id="section-title" class="about-title-position">Design.<br> Front-end Development. <br>Illustration.</h1>
                 <p id="section-paragraph" class="about-description-position">I'm Sydney and I collaborate, design, create and communicate. I specialize in two oppostite ends of the creative spectrum; front-end development and illustration. Using both of these specialties in my work produces unique results. At the end of the day, I strive to explore all areas of design.              
                 </p> 
-            <p id="section-paragraph" class="resume-text">View  my<b><a href="Images/Resume.pdf" target="_blank"> Resumé.</a></b></p>                  
+            <p id="section-paragraph" class="resume-text">View my<b><a href="Images/Resume.pdf" target="_blank" onclick="ga('send', 'event', 'Resume', 'download', 'Introduction');"
+
+> Resumé.</a></b></p>                  
                 
 
                
@@ -64,7 +77,9 @@
                    
                    
 <div class="position-button">                 
-                    <a href="Images/Resume.pdf"><button class="resume">Resume
+                    <a href="Images/Resume.pdf"><button class="resume" onclick="ga('send', 'event', 'Resume', 'download', 'Resume Button');"
+
+>Resume
 </button></a></div>  
             </div>
 

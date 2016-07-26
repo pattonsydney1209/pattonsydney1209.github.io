@@ -37,6 +37,9 @@ accordion.find('dd').hide();
 accordion.find('dt').on('click',function(){
   
   $(this).toggleClass('open').next('dd').slideToggle().siblings('dd:visible').slideUp().prev('dt').removeClass('open');
+    var title = $('.this').text();
+ga('set', { page:'/portfolio/'+encodeURIComponent(title).toLowerCase(), title: title });
+ga('send', 'pageview');    
     
     
 });
@@ -52,6 +55,8 @@ header.find('.menu').on('click',function(){
   $(this).toggleClass('open').next('nav').slideToggle(300).siblings('nav:visible').slideToggle(300);
   
 });
+
+
 
 $(document).ready(function(){
 $(window).resize(function() {
