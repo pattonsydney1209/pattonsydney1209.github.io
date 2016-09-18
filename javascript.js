@@ -1,3 +1,10 @@
+$(document).ready(function() {
+    $('section').fadeIn();
+});
+
+
+
+
 
 
 $(document).on('click', 'a',function(e) {
@@ -5,7 +12,6 @@ $(document).on('click', 'a',function(e) {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
 });
-
 
 
 
@@ -82,6 +88,8 @@ $('.accordion dt.open:visible').toggleClass('active');
 //    });
 //});
 
+
+
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
     
@@ -126,7 +134,7 @@ function onScroll(event){
 
 
 
-
+//
 
 
 

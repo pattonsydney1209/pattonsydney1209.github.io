@@ -132,7 +132,8 @@
 
 
 
-#construction {
+section {
+display: none;
 font-family: Rubik;
 margin-top: 200px;
 }
