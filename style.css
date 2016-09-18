@@ -133,13 +133,15 @@
 section {
 font-family: Rubik;
 margin-top: 200px;
+margin-bottom: 200px;
 }
 
 #construction h1 {
 text-transform: lowercase;
 color: cornflowerblue;
 font-size: 50px;
-padding: 0 60px;
+padding-left: 60px;
+padding-right: 20px;
 }
 
 #construction h2 {
