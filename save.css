@@ -1,4 +1,382 @@
 
+
+/*
+
+
+    /*BEGIN CSS*//*
+    
+    html,
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        z-index: -3;
+        overflow-x: hidden;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+h1 {
+    font-family: Roboto Slab;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+/*
+    #section-contain {
+        margin: 0 auto;
+        padding: 100px 0;
+        width: 342px;
+    }
+*/
+
+
+    
+    /*ABOUT SECTION*/
+ 
+/*
+    #about {
+        color: white;
+        background-image: url(Images/background-23.svg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: #2D2A33;
+        overflow: hidden; 
+    }
+*/
+
+
+
+    /*HEADER STYLING*//*
+
+
+    .delete {
+        margin-top: 7px;
+        font-size: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    header {
+        z-index: 3;
+        top: 0;
+        width: 100%;
+    }
+    
+    header h1 {
+        display: inline-block;
+        font-family: Muli, sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: .15em;
+        color: #2b2b2b;
+        font-weight: 400;        
+        transition: all 300ms ease-in-out;
+        margin-left: 200px;
+
+        
+    }
+    
+
+
+*/
+
+
+    /*SOCIAL MEDIA*//*
+    
+    
+    #social {
+        width: 180px;
+        margin: 25px auto;
+        display: inline-block;
+    }
+    
+    #social li {
+        margin-left: 25px;
+        width: 25px;
+        display: inline-block;
+    }
+    
+    #social img {
+        padding: 0;
+        margin: 0;
+        width: 25px;  
+    }
+
+
+
+
+    /*ABOUT TEXT*//*
+    
+    .about-title-position {
+        width: 400px;
+
+    }
+    
+    .about-info {
+        color: white;
+    }
+    
+    #section-title {
+        font-family: Roboto Slab, serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        letter-spacing: .06em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    #section-paragraph {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 440px;
+        font-size: 14px;
+        line-height: 1.4em;
+        font-family: Muli, sans-serif;
+    }
+    
+    .about-contain {
+        margin-bottom: 100px;
+        width: 400px;
+        margin-left: 200px;
+        padding-right: 200px;
+        border-right: lightgrey solid .5px;
+        margin-top: 150px;
+        float: left;
+    }
+    
+*/
+
+
+/*RESUME BUTTON*//*
+
+.resume-text{
+        display: none;
+        }
+        
+
+    .position-button {
+        width: 220px;
+        margin: 0 auto;
+     
+    }
+    
+    .resume {
+        margin-top: 40px;
+        width: 220px;
+        height: 50px;
+        padding: 12px 20px;
+        background-color: #46BC96;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+        color: white;
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+    
+    .resume:hover {
+        background-color: rgba(97, 201, 222, .5);
+        transition: all 300ms ease;
+    }
+
+
+
+    /*PORTFOLIO SECTION*//*
+
+    .tease {
+color: #F05168;
+}
+    
+    #portfolio {
+        background-color: white;
+        float: left;
+            }
+
+    .portfolio-header-position {
+          margin-left: 200px;
+        margin-top: 150px;
+        margin-bottom: 30px;
+    }
+
+    #portfolio h1 {
+        text-align: left;
+    }
+    
+    #portfolio p {
+        font-weight: 500;
+        color: rgba(51, 51, 51, .78);
+        text-align: left;
+        margin-bottom: 100px;
+
+    }
+
+}
+    
+    .position-paragraph {
+        padding-bottom: 50px;
+        text-align: right;
+    }
+    
+   
+*/
+
+
+    /*ACCORDION CLOSED*//*
+
+    .jsOn .accordion dt {
+        cursor: pointer;
+    }
+
+    dd {
+        display: inline-block;
+    }
+    
+    .accordion,
+    .accordion dt,
+    .accordion dd,
+    .accordion figure {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .accordion dt {
+        padding-bottom: 20px;
+        font-family: Muli, sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+        text-transform: capitalize;
+        transition: all 300ms;
+        margin-left: 200px;
+    }
+    
+    dt:hover {
+        color: #46BC96;
+        transition: all 300ms ease-in-out;
+    }
+    
+
+    /*INSIDE ACCORDION*//*
+
+    .accordion dt.open {
+        padding: 30px 15px 10px 15px;
+        margin: 0;
+        font-size: 20px;
+        text-align: left;
+        color: #46BC96;
+        line-height: 1.2em;
+    }
+    
+    .accordion dt.open:before {
+        float: right;
+        vertical-align: middle;
+        content: '✖';
+        margin-right: 0.5em;
+        font-size: 25px;
+        color: #F05168;
+        text-transform: lowercase;
+        transition: all 300ms ease-in-out;
+
+    }
+
+.accordion dt.open:hover::before{
+    transform: rotate(-90deg);
+    transition: all 300ms ease-in-out;
+    opacity: .5;
+}
+    
+    .accordion dd {
+        padding-bottom: 20px;
+        border-top: none;
+    }
+    
+    #type {
+        text-transform: uppercase;
+        padding: 0 15px;
+        color: #2D2A33;
+        font-weight: 600;
+        letter-spacing: .15em;
+    }
+
+    #description {
+        padding: 20px 15px;
+        margin-top: 20px;
+        color: #333333;
+        line-height: 1.3em;
+        font-weight: 400;
+    }
+    
+    img {
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    */
+    
+   
+    /*CONTACT STYLING*/
+/*
+    
+    #contact {
+        width: 100%;
+        background-image: url(Images/background-23.svg);
+        background-size: cover;
+        background-color: #46BC96;
+        background-position: bottom;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        transition: all 2s ease;
+        color: #2D2A33;
+        height: 600px;
+        overflow: hidden;
+    }
+    
+    #contact h1 {
+        margin-top: 70px;
+        color: white;
+    }
+    
+    #contact p {
+        font-weight: 500;
+        color: white;
+    }
+    
+    #contact a {
+        color: #2D2A33;
+    }
+    
+    #contact b {
+        color: #2D2A33;
+    }
+    
+
+
+
+    /*FOOTER*//*
+    
+    footer {
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        background: #2b2b2b;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        
+        
+    }
+
+
+*/
 /*
 
 
