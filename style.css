@@ -132,7 +132,10 @@
 
 section {
 font-family: Rubik;
-margin-top: 200px;
+width: 100%;
+margin-left: auto;
+margin-right:auto;
+margin-top: 100px;
 margin-bottom: 200px;
 }
 
@@ -147,7 +150,7 @@ padding-right: 20px;
 #construction h2 {
 font-size: 25px;
 margin-top: 15px;
-padding: 0 60px;
+padding: 0 40px;
 color: dimgray;
 line-height: 1.2em;
 }
